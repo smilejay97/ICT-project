@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/nav_item1"
+        android:icon="@drawable/closet"
+        android:title="내 옷장"/>
+
+    <item
+        android:id="@+id/nav_item2"
+        android:icon="@drawable/recommend"
+        android:title="추천 코디"/>
+
+    <item
+        android:id="@+id/nav_item3"
+        android:icon="@drawable/shopping"
+        android:title="쇼핑"/>
+
+    <item
+        android:id="@+id/nav_item4"
+        android:icon="@drawable/person"
+        android:title="마이페이지"/>
+
+</menu>

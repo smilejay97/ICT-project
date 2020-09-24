@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".closet.Nav1FragmentMyCloset">
+
+
+    <HorizontalScrollView
+        android:id="@+id/select_closet_option"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true"
+        android:scrollbarStyle="insideOverlay"
+        android:scrollbars="horizontal">
+
+        <LinearLayout
+            android:id="@+id/btn_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/outer_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/btn_padding"
+                android:background="@drawable/radius"
+                android:text="@string/btn_outer"
+                android:textSize="@dimen/btn_size"
+                android:textColor="@color/darkblue"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/top_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/btn_padding"
+                android:background="@drawable/radius"
+                android:text="@string/btn_top"
+                android:textColor="@color/darkblue"
+                android:textSize="@dimen/btn_size"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/pants_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/btn_padding"
+                android:background="@drawable/radius"
+                android:text="@string/btn_pants"
+                android:textColor="@color/darkblue"
+                android:textSize="@dimen/btn_size"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/shoes_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/btn_padding"
+                android:background="@drawable/radius"
+                android:text="@string/btn_shoes"
+                android:textColor="@color/darkblue"
+                android:textSize="@dimen/btn_size"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/add_cloth_comment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/add_cloth"
+            android:layout_gravity="center"
+            android:textColor="@color/gray"
+            android:textStyle="bold"
+            android:textSize="@dimen/add_cloth_comment"
+            android:gravity="center"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="vertical"
+            app:layoutManager="androidx.recyclerview.widget.GridLayoutManager" />
+    </FrameLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:backgroundTint="@color/colorPrimaryDark"
+
+        android:layout_margin="16dp"
+        app:srcCompat="@android:drawable/stat_notify_more" />
+
+</LinearLayout>

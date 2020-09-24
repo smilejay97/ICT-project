@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">KKUGONG</string>
+    //로그인
+    <string name="idText">아이디</string>
+    <string name="passwordtext">비밀번호</string>
+    <string name="autoLogin">자동 로그인</string>
+    <string name="loginButton">로그인</string>
+    <string name="registerButton">회원가입</string>
+
+    //회원가입
+    <string name="name">이름</string>
+    <string name="email">이메일</string>
+    <string name="password">비밀번호</string>
+    <string name="checkpassword">비밀번호 확인</string>
+    <string name="sex">성별</string>
+    <string name="nickname">닉네임</string>
+    <string name="birth">생년월일</string>
+
+    //네비게이션바 표시
+    <string name="nav_closet">옷장</string>
+    <string name="nav_coordination">코디</string>
+    <string name="nav_shopping">쇼핑</string>
+    <string name="nav_mypage">마이</string>
+
+    //옷 종류 고르는 버튼
+    <string name="btn_outer">Outer</string>
+    <string name="btn_top">Top</string>
+    <string name="btn_pants">Pants</string>
+    <string name="btn_shoes">Shoes</string>
+    <string name="btn_head">head wear</string>
+
+    //옷장
+    <string name='add_cloth'>옷을 추가해주세요</string>
+
+    //액션바
+    <string name="actionbar_logout">로그아웃</string>
+    <string name="actionbar_setting">설정</string>
+
+    //의류 목록 화면
+    <string name="camera">카메라</string>
+    <string name="gallery">갤러리</string>
+</resources>
